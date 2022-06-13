@@ -1,0 +1,217 @@
+/********************************/
+/********************************/
+/* Main*/
+
+body {
+    background: rgb(19, 19, 19);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 100;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 3rem;
+    color: #ffff;
+    height: 100%;
+    width: 100%;
+    border: 4px;
+    transition: 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-image: url('../images/bo-chen-cosmic-lux-final-1920.jpg');
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
+
+.cardex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 3rem;
+    color: #ffff;
+    height: 100%;
+    width: 100%;
+    border: 4px;
+    transition: 500ms;
+    overflow: hidden;
+    background-color: #5c5c5c;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
+
+/* Main*/
+/********************************/
+/********************************/
+/* Header*/
+.header {
+    position: relative;
+    background-image: url(../images/Daily\ sketches_clouds_09212021.jpg);
+    background-size: cover;
+
+
+}
+
+#stickypost {
+    height: 10vh;
+}
+
+#stickypost span {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #000;
+}
+
+.headerwrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    flex-direction: row;
+
+
+}
+
+header hr {
+    color: white;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+header ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header ul li {
+    float: inline-end;
+    display: inline;
+}
+
+header ul li a {
+
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    margin: 0 10px;
+}
+
+
+/* Header*/
+
+/* Big Text */
+.bigtext {
+
+    padding: 110px;
+    position: relative;
+    display: block;
+    justify-content: center;
+    height: 30vh;
+}
+
+.bigtext h2 {
+    text-align: center;
+    font-size: 56px;
+    color: white;
+}
+
+.bigtext span {
+    position: relative;
+
+    color: white;
+    left: 45%;
+    right: 50%;
+    top: 17px;
+
+}
+
+
+/* Big Text */
+
+
+/* Footer */
+
+.footer {
+    margin: 0 auto;
+    padding: 0 17px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000000;
+    height: 30vh;
+    color: white;
+
+}
+
+.footer sub {
+    font-size: 13px;
+}
+
+.pagesize {
+
+    max-width: 2160px;
+}
+
+.--foot {
+    align-items: flex-end;
+    font-size: 13.8px;
+}
+
+.--foot ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.--foot ul li {
+
+    display: inline;
+}
+
+.--foot ul li a {
+
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    margin: 0 10px;
+}
+
+/* Footer */
